@@ -222,38 +222,38 @@ pre code {
   position: relative;
   top: -5px;
 }
-/* ======= About Section ======= */
-.about {
+/* ======= agenda Section ======= */
+.agenda {
   padding: 80px 0;
   background: #f5f5f5;
 }
-.about .title {
+.agenda .title {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 60px;
 }
-.about .intro {
+.agenda .intro {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
-.about .item {
+.agenda .item {
   position: relative;
   margin-bottom: 30px;
 }
-.about .item .icon-holder {
+.agenda .item .icon-holder {
   position: absolute;
   left: 30px;
   top: 0;
 }
-.about .item .icon-holder .fa {
+.agenda .item .icon-holder .fa {
   font-size: 24px;
   color: #074f66;
 }
-.about .item .content {
+.agenda .item .content {
   padding-left: 60px;
 }
-.about .item .content .sub-title {
+.agenda .item .content .sub-title {
   margin-top: 0;
   color: #074f66;
   font-size: 18px;
@@ -283,17 +283,17 @@ pre code {
   margin-right: 5px;
   color: #fff;
 }
-/* ======= Docs Section ======= */
-.docs {
+/* ======= Agenda no actualitzada ======= */
+.agenda {
   padding: 80px 0;
   background: #f5f5f5;
 }
-.docs .title {
+.agenda .title {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 30px;
 }
-.docs .docs-inner {
+.agenda .agenda-inner {
   max-width: 800px;
   background: #fff;
   padding: 30px;
@@ -307,13 +307,13 @@ pre code {
   background-clip: padding-box;
   margin: 0 auto;
 }
-.docs .block {
+.agenda .block {
   margin-bottom: 60px;
 }
-.docs .code-block {
+.agenda .code-block {
   margin: 30px inherit;
 }
-.docs .code-block pre[class*="language-"] {
+.agenda .code-block pre[class*="language-"] {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -323,17 +323,17 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* ======= License Section ======= */
-.license {
+/* ======= basura Section ======= */
+.basura {
   padding: 80px 0;
   background: #f5f5f5;
 }
-.license .title {
+.basura .title {
   margin-top: 0;
   margin-bottom: 60px;
   color: #074f66;
 }
-.license .license-inner {
+.basura .basura-inner {
   max-width: 800px;
   background: #fff;
   padding: 30px;
@@ -347,11 +347,11 @@ pre code {
   background-clip: padding-box;
   margin: 0 auto;
 }
-.license .info {
+.basura .info {
   max-width: 760px;
   margin: 0 auto;
 }
-.license .cta-container {
+.basura .cta-container {
   max-width: 540px;
   margin: 0 auto;
   margin-top: 60px;
@@ -364,7 +364,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.license .cta-container .speech-bubble {
+.basura .cta-container .speech-bubble {
   background: #d6f3fc;
   color: #074f66;
   padding: 30px;
@@ -379,7 +379,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.license .cta-container .speech-bubble:after {
+.basura .cta-container .speech-bubble:after {
   position: absolute;
   left: 50%;
   bottom: -10px;
@@ -392,51 +392,51 @@ pre code {
   border-right: 10px solid transparent;
   border-top: 10px solid #d6f3fc;
 }
-.license .cta-container .icon-holder {
+.basura .cta-container .icon-holder {
   margin-bottom: 15px;
 }
-.license .cta-container .icon-holder .fa {
+.basura .cta-container .icon-holder .fa {
   font-size: 56px;
 }
-.license .cta-container .intro {
+.basura .cta-container .intro {
   margin-bottom: 30px;
 }
-/* ======= Contact Section ======= */
-.contact {
+/* ======= soyprogramador Section ======= */
+.soyprogramador {
   padding: 80px 0;
   background: #17baef;
   color: #fff;
 }
-.contact .contact-inner {
+.soyprogramador .soyprogramador-inner {
   max-width: 760px;
   margin: 0 auto;
 }
-.contact .title {
+.soyprogramador .title {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 30px;
 }
-.contact .intro {
+.soyprogramador .intro {
   margin-bottom: 60px;
 }
-.contact a {
+.soyprogramador a {
   color: #074f66;
 }
-.contact a:hover {
+.soyprogramador a:hover {
   color: #042a36;
 }
-.contact .author-message {
+.soyprogramador .author-message {
   position: relative;
   margin-bottom: 60px;
 }
-.contact .author-message .profile {
+.soyprogramador .author-message .profile {
   position: absolute;
   left: 30px;
   top: 15px;
   width: 100px;
   height: 100px;
 }
-.contact .author-message .profile img {
+.soyprogramador .author-message .profile img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -446,7 +446,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.contact .author-message .speech-bubble {
+.soyprogramador .author-message .speech-bubble {
   margin-left: 155px;
   background: #10b2e7;
   color: #074f66;
@@ -461,16 +461,16 @@ pre code {
   background-clip: padding-box;
   position: relative;
 }
-.contact .author-message .speech-bubble .sub-title {
+.soyprogramador .author-message .speech-bubble .sub-title {
   color: #074f66;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 30px;
 }
-.contact .author-message .speech-bubble a {
+.soyprogramador .author-message .speech-bubble a {
   color: #fff;
 }
-.contact .author-message .speech-bubble:after {
+.soyprogramador .author-message .speech-bubble:after {
   position: absolute;
   left: -10px;
   top: 60px;
@@ -482,34 +482,34 @@ pre code {
   border-bottom: 10px solid transparent;
   border-right: 10px solid #10b2e7;
 }
-.contact .author-message .speech-bubble .source {
+.soyprogramador .author-message .speech-bubble .source {
   margin-top: 30px;
 }
-.contact .author-message .speech-bubble .source a {
+.soyprogramador .author-message .speech-bubble .source a {
   color: #074f66;
 }
-.contact .author-message .speech-bubble .source .title {
+.soyprogramador .author-message .speech-bubble .source .title {
   color: #0c86ae;
 }
-.contact .info .sub-title {
+.soyprogramador .info .sub-title {
   color: #0e98c5;
   margin-bottom: 30px;
   margin-top: 0;
 }
-.contact .social-icons {
+.soyprogramador .social-icons {
   list-style: none;
   padding: 10px 0;
   margin-bottom: 0;
   display: inline-block;
   margin: 0 auto;
 }
-.contact .social-icons li {
+.soyprogramador .social-icons li {
   float: left;
 }
-.contact .social-icons li.last {
+.soyprogramador .social-icons li.last {
   margin-right: 0;
 }
-.contact .social-icons a {
+.soyprogramador .social-icons a {
   display: inline-block;
   background: #0c86ae;
   width: 48px;
@@ -527,13 +527,13 @@ pre code {
   margin-right: 8px;
   float: left;
 }
-.contact .social-icons a:hover {
+.soyprogramador .social-icons a:hover {
   background: #e6ad14;
 }
-.contact .social-icons a .fa {
+.soyprogramador .social-icons a .fa {
   color: #fff;
 }
-.contact .social-icons a .fa:before {
+.soyprogramador .social-icons a .fa:before {
   font-size: 26px;
   text-align: center;
   padding: 0;
@@ -578,27 +578,27 @@ pre code {
     display: block;
     margin-bottom: 5px;
   }
-  .contact .author-message {
+  .soyprogramador .author-message {
     text-align: center;
   }
-  .contact .author-message .profile {
+  .soyprogramador .author-message .profile {
     position: static;
     margin: 0 auto;
     margin-bottom: 30px;
   }
-  .contact .author-message .speech-bubble {
+  .soyprogramador .author-message .speech-bubble {
     margin-left: 0;
   }
-  .contact .author-message .speech-bubble:after {
+  .soyprogramador .author-message .speech-bubble:after {
     display: none;
   }
-  .contact .social-icons a {
+  .soyprogramador .social-icons a {
     width: 36px;
     height: 36px;
     padding-top: 7px;
     margin-right: 2px;
   }
-  .contact .social-icons a .fa:before {
+  .soyprogramador .social-icons a .fa:before {
     font-size: 18px;
   }
 }
