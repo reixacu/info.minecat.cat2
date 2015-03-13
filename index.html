@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if !IE]><!--> <html lang="ca"> <!--<![endif]-->
 <head>
     <title>INFO.MINECAT.CAT | AWESOME</title>
     <!-- Meta -->
@@ -246,26 +246,19 @@
 
 </head>
 
+<!-- Lo de init és perquè carregui el vídeo del final. Ni idea de perquè.... -->
+
 <body onload="init()" data-spy="scroll">
 
-    <!---//Facebook button code-->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- ****** MENÚ MOLON ****** -->
 
-    <!-- ******HEADER****** -->
     <header id="header" class="header">
         <div class="container">
             <h1 class="logo pull-left">
                 <a class="scrollto" href="#promo">
                     <span class="logo-title">info.DAM</span>
                 </a>
-            </h1><!--//logo-->
+            </h1>
             <nav id="main-nav" class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -273,13 +266,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->
+                    </button>
+                </div>
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
+
+                        <!-- Diversos botóns per navegar a diverses seccions de la pàgina -->
                         <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Inici</a></li>
                         <li class="nav-item"><a class="scrollto" href="#about">Horari</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#features">Links</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#enllacos">Links</a></li>
                         <li class="nav-item"><a class="scrollto" href="#docs">Examens</a></li>
                         <li class="nav-item"><a class="scrollto" href="#license">Altres</a></li>
                         <li class="nav-item last"><a class="scrollto" href="#contact">Programador</a></li>
@@ -290,9 +285,10 @@
 
     </header><!--//header-->
 
-    <!-- ******PROMO****** -->
+    <!-- ***** GUARRADA DE PRESENTACIÓ DEL PRINCIPI ***** -->
 
     <section id="promo" class="promo section offset-header">
+
         <div class="container text-center">
             <img src="icon.png" />
             <h2 class="title">info.<span class="highlight">minecat</span>.cat</h2>
@@ -310,11 +306,15 @@
 
             </ul>
         </div>
+
+        <!-- ***** KIRBY DONANT VOLTES ***** -->
+
         <div class="social-media">
             <div class="social-media-inner container text-center">
-                <marquee><img src="kirby.gif" /></marquee>
+                <marquee><img src="/assets/imatges/kirby.gif" /></marquee>
             </div>
         </div>
+
     </section>
 
     <section id="about" class="about section">
@@ -385,8 +385,8 @@
         </div><!--//container-->
     </section><!--//about-->
 
-    <!-- ******FEATURES****** -->
-    <section id="features" class="features section">
+    <!-- ****** Enllaços ****** -->
+    <section id="enllacos" class="enllacos section">
         <div class="container text-center">
             <h2 class="title">Enllaços útils per classe</h2>
             <ul class="feature-list list-unstyled">
@@ -442,7 +442,7 @@
 
 	<div style="display:none">
 		<video id="sourcevid" autoplay="true" loop="true">
-			<source src="soy_programador.mp4" type="video/mp4"/>
+			<source src="/assets/videos/soy_programador.mp4" type="video/mp4"/>
 		</video>
 		<canvas id="sourcecopy" width="640" height="360"></canvas>
 	</div>
